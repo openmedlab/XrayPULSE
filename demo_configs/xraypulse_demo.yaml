@@ -1,0 +1,24 @@
+model:
+  arch: xray_pulse
+  model_type: pulse
+  freeze_vit: True
+  freeze_qformer: True
+  max_txt_len: 160
+  end_sym: "</s>"
+  low_resource: True
+  prompt_path: "prompts/alignment.txt"
+  prompt_template: 'Instructions: You are PULSE, a large language model trained by SHAIlab. Answer as concisely as possible.\nKnowledge cutoff: 2021-09-01\nCurrent date: 2022-02-01</s> User: {} </s> Helper: '
+  ckpt: '/mnt/workspace/huangzhongzhen/ckpt/checkpoint_9.pth'
+
+datasets:
+  openi:
+    vis_processor:
+      train:
+        name: "blip2_image_eval"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+
+run:
+  task: image_text_pretrain

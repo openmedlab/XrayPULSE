@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python -u demo.py --cfg-path demo_configs/xraypulse_demo.yaml  --gpu-id 0
