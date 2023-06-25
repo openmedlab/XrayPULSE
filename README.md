@@ -108,8 +108,10 @@ bash run_demo.sh
 
 ## 🙏 Acknowledgement
 This project is built upon the gaint sholders of [XrayGPT](https://github.com/mbzuai-oryx/XrayGPT). Great thanks to it!
-We used medical aware image encoder from MedCLIP[MedCLIP](https://github.com/RyanWangZf/MedCLIP) 
-The model architecture of XrayGPT follows [BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2) 
+
+We used medical aware image encoder from MedCLIP[MedCLIP](https://github.com/RyanWangZf/MedCLIP).
+
+The model architecture of XrayGPT follows [BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2).
 
 
 ## 🛡️ License
