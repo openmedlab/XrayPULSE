@@ -37,13 +37,6 @@ Key feature bulletin points here
 - An attempt to extend [PULSE]() to a biomedical multimodal conversational assistant. 
 - XrayPULSE is fintuned on Xray-Report paired datasets in Chinese
 
-## Links
-
-- [PULSE\_Model](https://) 
-- [Pretrained_XrayPULSE_Checkpoint](https://)
-
-
-<!-- give a introduction of your project -->
 
 ## Details
 
@@ -78,7 +71,7 @@ conda activate xraypulse
 You can find the pretrained model weights.
 
 - [PULSE\_Model](https://huggingface.co/OpenMEDLab/PULSE-7bv5) 
-- [Pretrained_XrayPULSE_Checkpoint](https://)
+- [Pretrained_XrayPULSE_Checkpoint]([https://](https://drive.google.com/file/d/1VsO61-3DFuK4ysGPvoD4_JZaRFKvAJR_/view?usp=drive_link))
 
 The weights of PULSE would be in a single folder in a structure similar to the following:
 
@@ -109,7 +102,7 @@ bash run_demo.sh
 ## 🙏 Acknowledgement
 This project is built upon the gaint sholders of [XrayGPT](https://github.com/mbzuai-oryx/XrayGPT). Great thanks to it!
 
-We used medical aware image encoder from MedCLIP[MedCLIP](https://github.com/RyanWangZf/MedCLIP).
+We used medical aware image encoder from [MedCLIP](https://github.com/RyanWangZf/MedCLIP).
 
 The model architecture of XrayGPT follows [BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2).
 
