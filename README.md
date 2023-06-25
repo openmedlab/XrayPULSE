@@ -62,7 +62,7 @@ Our model is based onPULSE. We utilize [MedCLIP](https://github.com/RyanWangZf/M
 **Installation**
 
 ```bash
-git clone https://github.com/openmedlab/
+git clone https://github.com/openmedlab/XrayPULSE.git
 cd XrayPLUSE
 ```
 
