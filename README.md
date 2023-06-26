@@ -71,7 +71,7 @@ conda activate xraypulse
 You can find the pretrained model weights.
 
 - [PULSE\_Model](https://huggingface.co/OpenMEDLab/PULSE-7bv5) 
-- [Pretrained_XrayPULSE_Checkpoint]((https://drive.google.com/file/d/1VsO61-3DFuK4ysGPvoD4_JZaRFKvAJR_/view?usp=drive_link)
+- [Pretrained_XrayPULSE_Checkpoint](https://drive.google.com/file/d/1VsO61-3DFuK4ysGPvoD4_JZaRFKvAJR_/view?usp=drive_link)
 
 The weights of PULSE would be in a single folder in a structure similar to the following:
 
