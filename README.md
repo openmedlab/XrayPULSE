@@ -1,6 +1,4 @@
-# [Model/Code] XrayPULSE
-
-<!-- select Model and/or Data and/or Code as needed>
+# XrayPULSE
 
 ### Welcome to OpenMEDLab! 👋
 
