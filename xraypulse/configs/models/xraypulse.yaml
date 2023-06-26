@@ -13,7 +13,7 @@ model:
   num_query_token: 32
 
   # Vicuna
-  bloom_model: "/mnt/data/oss_beijing/huangzhongzhen/7bv5"
+  bloom_model: "./7bv5"
 
   # generation configs
   prompt: ""
