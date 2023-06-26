@@ -106,7 +106,7 @@ def gradio_answer(chatbot, chat_state, img_list, num_beams, temperature):
 title = """<h1 align="center"> XrayPULSE </h1>"""
 description = """<h3>上传X光影像，开始诊断咨询</h3>"""
 disclaimer = """ 
-            <h1 >Terms of Use:</h1>
+            <h1 >使用说明:</h1>
             <ul> 
                 <li>XrayPULSE为PULSE在医疗多模态领域的扩展应用之一，可以用于对X光影像进行医学诊断分析，辅助医生，并为患者提供诊断支持。</li>
                 <li>XrayPULSE尝试通过分析X光影像提供准确和有用的结果。然而，我们对所提供结果的有效性、可靠性或完整性不作任何明确的保证或陈述。我们需要不断改善和完善服务，为医疗专业人员提供最好的协助</li>
@@ -157,7 +157,7 @@ with gr.Blocks() as demo:
             chat_state = gr.State()
             img_list = gr.State()
             chatbot = gr.Chatbot(label='XrayPULSE')
-            text_input = gr.Textbox(label='User', placeholder='请上传X光影像', interactive=False)
+            text_input = gr.Textbox(label='用户', placeholder='请上传X光影像', interactive=False)
 
 
     with gr.Row():
