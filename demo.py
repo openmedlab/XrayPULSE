@@ -163,15 +163,12 @@ with gr.Blocks() as demo:
     with gr.Row():
         example_xrays = gr.Dataset(components=[image], label="X光影像范例",
                                     samples=[
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img1.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img2.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img3.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img4.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img5.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img6.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img7.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img8.png")],
-                                        [os.path.join(os.path.dirname(__file__), "images/example_test_images/img9.png")],
+                                        [os.path.join(os.path.dirname(__file__), "images/image1.png")],
+                                        [os.path.join(os.path.dirname(__file__), "images/image2.png")],
+                                        [os.path.join(os.path.dirname(__file__), "images/image3.png")],
+                                        [os.path.join(os.path.dirname(__file__), "images/image4.png")],
+                                        [os.path.join(os.path.dirname(__file__), "images/image5.png")],
+                                        [os.path.join(os.path.dirname(__file__), "images/image6.png")],
                                     ])
         
 
