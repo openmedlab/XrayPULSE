@@ -20,9 +20,6 @@
 
 <!-- Select some of the point info, feel free to delete -->
 
-Updated on 2023.06.21
-
-
 
 ## Key Features
 
