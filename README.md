@@ -38,7 +38,7 @@ Key feature bulletin points here
 
 ## Details
 
-Our model is based onPULSE. We utilize [MedCLIP](https://github.com/RyanWangZf/MedCLIP)  as our medical visual encoder and Q-former ([BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2)) following a simple linear transformation as the adapter to inject the image to PULSE. For aligning the frozen visual encoder and the LLM by the adapter, we generate Chinese-version Xray-Report paired data from free-text radiology reports of two datasets ([MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/) and [OpenI](https://openi.nlm.nih.gov/faq#collection)) with the help of chatGPT.  To facilitate research in biomedical multimodal learning, we will release the data to the public: the biomedical.
+Our model is based on PULSE. We utilize [MedCLIP](https://github.com/RyanWangZf/MedCLIP)  as our medical visual encoder and Q-former ([BLIP2](https://huggingface.co/docs/transformers/main/model_doc/blip-2)) following a simple linear transformation as the adapter to inject the image to PULSE. For aligning the frozen visual encoder and the LLM by the adapter, we generate Chinese-version Xray-Report paired data from free-text radiology reports of two datasets ([MIMIC-CXR](https://physionet.org/content/mimic-cxr-jpg/2.0.0/) and [OpenI](https://openi.nlm.nih.gov/faq#collection)) with the help of chatGPT.  To facilitate research in biomedical multimodal learning, we will release the data to the public: the biomedical.
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 
