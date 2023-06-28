@@ -75,7 +75,7 @@ def gradio_reset(chat_state, img_list):
         chat_state.messages = []
     if img_list is not None:
         img_list = []
-    return None, gr.update(value=None, interactive=True), gr.update(placeholder='Please upload your image first', interactive=False),gr.update(value="Upload & Start Chat", interactive=True), chat_state, img_list
+    return None, gr.update(value=None, interactive=True), gr.update(placeholder='请先上传图片', interactive=False),gr.update(value="上传图片并开始咨询", interactive=True), chat_state, img_list
 
 def upload_img(gr_img, text_input, chat_state):
     if gr_img is None:
@@ -83,7 +83,7 @@ def upload_img(gr_img, text_input, chat_state):
     chat_state = CONV_ZH.copy()
     img_list = []
     llm_message = chat.upload_img(gr_img, chat_state, img_list)
-    return gr.update(interactive=False), gr.update(interactive=True, placeholder='Type and press Enter'), gr.update(value="Start Chatting", interactive=False), chat_state, img_list
+    return gr.update(interactive=False), gr.update(interactive=True, placeholder='输入问题'), gr.update(value="开始对话", interactive=False), chat_state, img_list
 
 def gradio_ask(user_message, chatbot, chat_state):
     if len(user_message) == 0:
