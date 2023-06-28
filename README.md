@@ -55,7 +55,7 @@ cd XrayPLUSE
 **Environment**
 
 ```bash
-conda env create -f environment.yml
+conda env create -f env.yml
 conda activate xraypulse
 ```
 
