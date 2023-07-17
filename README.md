@@ -49,7 +49,7 @@ Our model is based on PULSE. We utilize [MedCLIP](https://github.com/RyanWangZf/
 
 ```bash
 git clone https://github.com/openmedlab/XrayPULSE.git
-cd XrayPLUSE
+cd XrayPULSE
 ```
 
 **Environment**
