@@ -80,7 +80,7 @@ pulse_weights
 ├── pytorch_model-00002-of-00002.bin 
 ```
 
-Then, set the path of pulse_weights to "pulse_weights" in the model config file "xraypulse/configs/models/xraypulse.yaml"
+Then, set the path of pulse_weights to "bloom_model" in the model config file "xraypulse/configs/models/xraypulse.yaml"
 
 And add the path of the pretrained checkpoint  in "demo_configs/xraypulse_demo.yaml".
 
